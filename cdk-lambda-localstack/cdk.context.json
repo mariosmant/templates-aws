@@ -1,0 +1,10 @@
+{
+    "aws-cdk:enableDiffNoFail": "true",
+    "cdk:localstack": {
+      "host": "http://s3.localhost:4566",
+      "edgePort": 4566,
+      "s3Buckets": [],
+      "verbose": true
+    }
+  }
+  
